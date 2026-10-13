@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
+  <title id="t">Familiar Table Rules Pack</title>
+  <desc id="d">Short, tested Table Rules for Familiar's AI game master: dialogue-only NPCs, combat voices and DM style presets.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1a24"/>
+      <stop offset="0.65" stop-color="#173246"/>
+      <stop offset="1" stop-color="#24506a"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f8fa" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#f4f8fa" stop-opacity="0.07"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="340" fill="url(#sky)"/>
+  <!-- faint d20 -->
+  <g transform="translate(1190,300)" opacity="0.08" stroke="#f4f8fa" stroke-width="3" fill="none">
+    <polygon points="0,-120 104,-60 104,60 0,120 -104,60 -104,-60"/>
+    <polygon points="0,-120 60,30 -60,30"/>
+    <path d="M-104,-60 L-60,30 L0,120 L60,30 L104,-60 M-60,30 L-104,60 M60,30 L104,60"/>
+  </g>
+
+  <!-- title -->
+  <text x="72" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="700" fill="#f3f8fb" letter-spacing="0.5">Familiar Table Rules</text>
+  <text x="74" y="166" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" fill="#c9dbe6">Short rules you paste in to steer your AI GM.</text>
+  <text x="74" y="200" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" fill="#c9dbe6">Each one <tspan fill="#f0b35a" font-weight="700">failed without</tspan> and <tspan fill="#7fd1a8" font-weight="700">passed with</tspan> in live tests.</text>
+
+  <!-- chips -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#f3f8fb">
+    <rect x="72" y="244" width="190" height="42" rx="21" fill="#f4f8fa" fill-opacity="0.12" stroke="#f4f8fa" stroke-opacity="0.25"/>
+    <text x="167" y="272" text-anchor="middle">Dialogue only</text>
+    <rect x="276" y="244" width="198" height="42" rx="21" fill="#f4f8fa" fill-opacity="0.12" stroke="#f4f8fa" stroke-opacity="0.25"/>
+    <text x="375" y="272" text-anchor="middle">Combat voices</text>
+    <rect x="488" y="244" width="150" height="42" rx="21" fill="#f4f8fa" fill-opacity="0.12" stroke="#f4f8fa" stroke-opacity="0.25"/>
+    <text x="563" y="272" text-anchor="middle">DM style</text>
+  </g>
+
+  <!-- before bubble (struck) -->
+  <g transform="translate(770,58)">
+    <rect width="430" height="104" rx="18" fill="url(#bubble)" stroke="#e06c6c" stroke-opacity="0.45"/>
+    <circle cx="44" cy="42" r="22" fill="#8a5a2b" stroke="#f3d9a4" stroke-opacity=".6" stroke-width="2"/>
+    <text x="44" y="51" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#f3d9a4">M</text>
+    <text x="80" y="36" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f3f8fb">Marta Vell</text>
+    <text x="80" y="64" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-style="italic" fill="#a9bccb">Marta keeps wiping the same clean</text>
+    <text x="80" y="86" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-style="italic" fill="#a9bccb">tankard for a moment too long…</text>
+    <line x1="78" y1="59" x2="338" y2="59" stroke="#e06c6c" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="78" y1="81" x2="320" y2="81" stroke="#e06c6c" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="398" y="34" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e06c6c">without</text>
+  </g>
+  <!-- after bubble -->
+  <g transform="translate(800,190)">
+    <rect width="430" height="104" rx="18" fill="url(#bubble)" stroke="#7fd1a8" stroke-opacity="0.6"/>
+    <circle cx="44" cy="42" r="22" fill="#7a1f2b" stroke="#f2c4a0" stroke-opacity=".6" stroke-width="2"/>
+    <text x="44" y="51" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#f2c4a0">G</text>
+    <text x="80" y="36" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f3f8fb">Grest the Toll-Taker</text>
+    <text x="80" y="64" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#f3f8fb">"Stand still, priest — I'm trying to</text>
+    <text x="80" y="86" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#f3f8fb">rob you properly."</text>
+    <text x="398" y="34" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#7fd1a8">with</text>
+  </g>
+</svg>
