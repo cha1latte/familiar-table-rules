@@ -47,7 +47,7 @@ For adversarial, swap the second line for the [adversarial one](#dm-style-pick-o
 ```
 NPCs speak dialogue only: no narration, no action descriptions.
 ```
-**63 characters.** A rule shared in the Familiar Discord.
+**63 characters.** Rule by **Teshaman** from the Familiar Discord.
 
 When an NPC speaks, the GM fills the post under their name with stage directions. With voices or speech bubbles on, that narration gets read out in the NPC's voice. The screenshot at the top is the real before and after: the same question to Marta the innkeeper, without the rule (3 of 3 runs failed) and with it (2 of 2 passed).
 
@@ -58,7 +58,7 @@ When an NPC speaks, the GM fills the post under their name with stage directions
 ```
 Before any fight starts, stop and show me a one-line personality and two short sample lines for each PC and named NPC, from their sheets (beasts stay silent); start only after I OK them. In the fight, after a crit, kill, miss or spell, post one spoken sentence as that creature's own chat message, mostly in round 1.
 ```
-**316 characters.** Based on a pre-combat prompt shared in the Familiar Discord.
+**316 characters.** Based on **Teshaman**'s pre-combat prompt from the Familiar Discord.
 
 <img align="right" src="docs/combat-voices.png" alt="Round 1 in Foundry chat: narration from the GM, then one short line posted as each bandit, the halfling and the paladin" width="300">
 
@@ -143,4 +143,7 @@ Shield and opportunity attacks don't get a card yet, so players take those thems
 
 ## Credits
 
-The rules and the bug reports behind this pack come from the Familiar Discord; names will be added once people OK it. Familiar is made by Ryan Jansen. MIT licence.
+- **Teshaman:** the dialogue-only rule and the pre-combat voices prompt these rules are built on, plus the tip to put personalities on the sheets.
+- The spell and reaction reports behind "Tested, left out" came from other Familiar Discord members.
+
+Familiar is made by Ryan Jansen. MIT licence.
